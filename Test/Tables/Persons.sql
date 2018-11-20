@@ -3,7 +3,7 @@
 	[Id] INT NOT NULL PRIMARY KEY, 
     [Surname] NVARCHAR(50) NOT NULL, 
     [Name] NVARCHAR(50) NOT NULL, 
-    [Patronymic] NVARCHAR(50) NULL, 
+    [Patronymic] NVARCHAR(400) NULL, 
     [DataOfBirth] DATE NULL, 
     [DateInput] DATETIME NULL
 )

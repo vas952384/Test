@@ -2,7 +2,7 @@
 	@Id				INT					--Идентификатор лица
 	,@Surname		NVARCHAR(50)		--Фамилия
 	,@Name			NVARCHAR(50)		--Имя
-	,@Patronymic	NVARCHAR(50) = NULL	--Отчество
+	,@Patronymic	NVARCHAR(400) = NULL	--Отчество
 	,@DateOfBirth	DATE		 = NUll	--Дата рождения
 AS
 BEGIN
