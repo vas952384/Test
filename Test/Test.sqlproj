@@ -58,4 +58,10 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="Persons.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Test.refactorlog" />
+  </ItemGroup>
 </Project>
