@@ -7,6 +7,7 @@ BEGIN
 		  ,[Persons].[Name]
 		  ,[Persons].[Patronymic]
 		  ,[Persons].[DataOfBirth]
+		  ,DATEDIFF(mm, [Persons].[DataOfBirth], GETDATE())/12 AS [Age]
 	FROM   [dbo].[Persons]
 	WHERE [Persons].[Id] = @Id;
 END
